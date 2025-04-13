@@ -4,6 +4,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../libs/kafka"
+    },
+    {
       "path": "./tsconfig.app.json"
     }
   ]

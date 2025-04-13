@@ -2,6 +2,7 @@
   "name": "@notification-app/api",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "nx": {
     "targets": {
       "build": {
@@ -13,14 +14,12 @@
         "options": {
           "platform": "node",
           "outputPath": "api/dist",
-          "format": [
-            "cjs"
-          ],
+          "format": ["esm"],
           "bundle": false,
-          "main": "api/src/main.ts",
-          "tsConfig": "api/tsconfig.app.json",
+          "main": "apps/api/src/main.ts",
+          "tsConfig": "apps/api/tsconfig.app.json",
           "assets": [
-            "api/src/assets"
+            "apps/api/src/assets"
           ],
           "esbuildOptions": {
             "sourcemap": true,
