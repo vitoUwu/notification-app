@@ -5,6 +5,18 @@
   "references": [
     {
       "path": "./apps/notification-app"
+    },
+    {
+      "path": "./apps/api"
+    },
+    {
+      "path": "./apps/worker-email"
+    },
+    {
+      "path": "./apps/kafka"
+    },
+    {
+      "path": "./apps/redis-client"
     }
   ]
 }
